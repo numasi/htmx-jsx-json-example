@@ -1,0 +1,24 @@
+{
+  "name": "htmx-jsx-json-example",
+  "version": "1.0.0",
+  "description": "HTMX example for extensions jsx-template & json-attribute",
+  "author": "Bence Lukács (numasi)",
+  "homepage": "https://github.com/numasi/htmx-jsx-json-example#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numasi/htmx-jsx-json-example.git"
+  },
+  "keywords": [
+    "htmx",
+    "htmx-extension",
+    "jsx",
+    "template",
+    "json",
+    "attribute"
+  ],
+  "dependencies": {
+    "@kitajs/html": "^4.2.9",
+    "@types/bun": "^1.2.13",
+    "nano-server": "^0.5.4"
+  }
+}

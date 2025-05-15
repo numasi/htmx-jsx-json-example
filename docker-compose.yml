@@ -1,0 +1,7 @@
+services:
+  htmx-example:
+    image: "oven/bun:alpine"
+    container_name: htmx-example
+    volumes: 
+      - ./:/home/bun/app
+    entrypoint: sh -c "bun install && tail -f /dev/null"

@@ -46,7 +46,7 @@ bunx nano-server
 
 Example site can be reached, by default at `localhost:5000`
 
-## Used tech:
+## Used tech
 
 - HTMX
 - kita-js

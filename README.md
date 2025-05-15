@@ -19,15 +19,15 @@ Showing off HTMX capacities for sending a JSON request defined at level markup t
 - templates/BlogEntries.jsx <- Example JSX source
 - templates/templates.js <- Build entrypoint exporting all the possible JSX sources that will be needed on client side
 - dist/templates.js <- Build output for be consumed by client code (jsx-template extension in this case)
-- example.html <- Our example site fetching a JSON-RPC API at a public [Hive](...) node
+- example.html <- Our example site fetching a JSON-RPC API at a public [Hive](https://hive.blog/) node
 - json-attribute.js, jsx-template.js <- HTMX extensions being used on the client
-- tsconfig.json <- For instructing Bun's bundler, mainly to use and bundle [kita-js](...) direct HTML string generation for JSX code instead of React's createElement.
+- tsconfig.json <- For instructing Bun's bundler, mainly to use and bundle [kita-js](https://github.com/kitajs/html) direct HTML string generation for JSX code instead of React's createElement.
 - packages.json <- Dev packages needed for bundling & serving
 - docker-compose.yml <- For nice and easy dev environment
 
 ## Use
 
-We use the all-in-one [Bun JS](...) environment for JSX transpilation and bundling, and to run a minimal dev server to  around CORS difficulties. You can get it up and running with a docker container defined in the docker-compose.yml included.
+We use the all-in-one [Bun JS](https://bun.sh/) environment for JSX transpilation and bundling, and to run a minimal dev server to  around CORS difficulties. You can get it up and running with a docker container defined in the docker-compose.yml included.
 
 Fire up the container in the background first:
 `docker compose up -d`
@@ -46,10 +46,12 @@ bunx nano-server
 
 Example site can be reached, by default at `localhost:5000`
 
-## Used tech
+## Tech
 
-- HTMX
-- kita-js
-- Bun
-- Docker
-- Typescript (under the hood)
+- [HTMX](https://htmx.org/)
+- [kita-js](https://github.com/kitajs/html)
+- [Bun](https://bun.sh/)
+- [Docker](https://www.docker.com)
+- [Typescript](https://www.typescriptlang.org/) (under the hood)
+- [React JSX](https://react.dev/learn/writing-markup-with-jsx)
+- [Hive blockchain](https://hive.io/)

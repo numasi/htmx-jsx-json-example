@@ -1,10 +1,10 @@
-### Example repo for HTMX extensions: json-attribute & jsx-template
+a### Example repo for HTMX extensions: json-attribute & jsx-template
 
 Extension json-attribute can be used as is, jsx-template however requires a building step, as it looks for a single transpiled and bundled JS file made out of the JSX templates being used. Location for this file is currently hardcoded as `dist/templates.js`. This repo contains a possible build setup for generating this bundle, and a live example for both of the extensions. 
 
 For the stand-alone extensions themselves check out the corresponding repos:
-- [htmx-json-attribute](htps://github.com/numasi/htmx-json-attribute)
-- [htmx-jsx-template](htps://github.com/numasi/htmx-jsx-template)
+- [htmx-json-attribute](https://github.com/numasi/htmx-json-attribute)
+- [htmx-jsx-template](https://github.com/numasi/htmx-jsx-template)
 
 ## Requirements
 
